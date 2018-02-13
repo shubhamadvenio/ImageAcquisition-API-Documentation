@@ -109,6 +109,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 (c) ChironX | Advenio TecnoSys Pvt. Ltd.
 
 Maintainer: Shubham Rana | shubham@chironx.ai
+
 SOS: Rito Maitra | rito@chironx.ai
 
 www.chironx.ai
