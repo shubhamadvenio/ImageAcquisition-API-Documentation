@@ -90,7 +90,7 @@ Data : FILES, KEY = "images"
 ```
 {
 status:200,
-message:"Files are being uploaded"
+message:"Files are  uploaded"
 }
 ```
 
