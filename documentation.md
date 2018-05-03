@@ -24,7 +24,7 @@ ChironCode ImageAcquisition API can be used to send files to the ChironCloud Ser
 1.Check Server Status: 
 
 ```
-STATUS URL  - http://chironapi.chironx.cloud/api/chironx/status
+STATUS URL  - http://chironapp.chironx.cloud/api/chironx/status
 ```
 
 If the server is correctly configured and running, this will be the response:
@@ -38,7 +38,7 @@ If the server is correctly configured and running, this will be the response:
 2. Authenticate:
 
 ```
-AUTHENTICATE-URL - http://chironapi.chironx.cloud/api/chironx/authenticate/login
+AUTHENTICATE-URL - http://chironapp.chironx.cloud/api/chironx/authenticate/login
 METHOD  - POST
 Content-Type: application/x-www-form-urlencoded
 email : "REGISTERED EMAIL"
