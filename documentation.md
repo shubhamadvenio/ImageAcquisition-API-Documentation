@@ -79,18 +79,22 @@ Note and store the token received in this response.
 
 3. BULK UPLOAD OF IMAGES
 ```
-URL - http://chironapi.chironx.cloud/api/chironx/bulkupload/images
+URL - http://chironapp.chironx.cloud/api/chironx/upload/Data?q=Intuvision
 METHOD - POST 
 REQUEST-HEADER - Authorization: BEARER "TOKEN"
 Content-Type - multipart/form-data
-Data : FILES, KEY = "images"
+Data : FILES, KEY = "images",
+Data : Text,  KEY="HardwareId",
+
 ```
+
+
 
 ### Post Successful Upload
 ```
 {
 status:200,
-message:"Files are being uploaded"
+message:"Your Data has been uploaded Successfully"
 }
 ```
 
@@ -109,7 +113,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 (c) ChironX | Advenio TecnoSys Pvt. Ltd.
 
 Maintainer: Shubham Rana | shubham@chironx.ai
-
-SOS: Rito Maitra | rito@chironx.ai
 
 www.chironx.ai
