@@ -79,7 +79,7 @@ Note and store the token received in this response.
 
 3. BULK UPLOAD OF IMAGES
 ```
-URL - http://chironapp.chironx.cloud/api/chironx/upload/Data?q=Intuvision
+URL - http://chironapp.chironx.cloud/api/chironx/upload/Data?q=CLIENT_NAME
 METHOD - POST 
 REQUEST-HEADER - Authorization: BEARER "TOKEN"
 Content-Type - multipart/form-data
